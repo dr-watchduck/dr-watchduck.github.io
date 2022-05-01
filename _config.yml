@@ -23,5 +23,5 @@ highlighter: rouge
 lsi: false
 description: 개인 기록
 baseurl: ""
-url: https://dr-watchduck.github.io/
+url: https://dr-watchduck.github.io
 color: "#f2f2f2"
