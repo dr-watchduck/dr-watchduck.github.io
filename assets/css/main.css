@@ -80,10 +80,12 @@ strong {
 details:not([open]) > summary {
     display: list-item;
     color: blue;
+    cursor: pointer;
 }
 
 details[open] > summary {
     display: list-item;
     list-style-type: disclosure-open;
     color: blue;
+    cursor: pointer;
 }
