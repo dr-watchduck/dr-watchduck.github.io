@@ -76,3 +76,14 @@ h6 {
 strong {
     font-weight: bold;
 }
+
+details:not([open]) > summary {
+    display: list-item;
+    color: blue;
+}
+
+details[open] > summary {
+    display: list-item;
+    list-style-type: disclosure-open;
+    color: blue;
+}
